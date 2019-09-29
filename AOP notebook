@@ -5,4 +5,7 @@ https://juejin.im/post/5a99048a6fb9a028d5668e62   代理模式
 
 从框架角度来说，框架基于接口进行构建，内置了调用过程，如果框架提供了一个接口给客户，交由客户去实现此接口，那么新实现的代码就会被执行
 
+# 小坑总结
+https://mp.weixin.qq.com/s/H8Zb_EPsnAPF7JlBgXrKAA 异常抓取
+
 
