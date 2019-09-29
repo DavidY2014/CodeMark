@@ -10,4 +10,6 @@ https://mp.weixin.qq.com/s/1p2XSfhM1V5CcWro6PZEwQ
 # 小坑总结
 https://mp.weixin.qq.com/s/H8Zb_EPsnAPF7JlBgXrKAA 异常抓取
 
+[Serializable]特性用以标记一个类可以被序列化，使用[NonSerialized]特性可以将类中的字段标识为序列化时忽略此字段。
+
 
