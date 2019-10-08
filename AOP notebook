@@ -15,3 +15,14 @@ https://mp.weixin.qq.com/s/H8Zb_EPsnAPF7JlBgXrKAA 异常抓取
 全局实现filter
 https://mp.weixin.qq.com/s/y0F6RZRMiC3u6oCd0fs4GA
 无需在每个post请求前面家上attributes
+
+WebHost.CreateDefaultBuilder(args)
+            .UseStartup<Startup>()
+            .ConfigureLogging(logging =>
+                {
+                    logging.ClearProviders();
+                    logging.SetMinimumLevel(LogLevel.Info);
+                    logging.AddConsole();
+                });
+   上面采用的扩展方法的方式实现方法的扩充
+   
