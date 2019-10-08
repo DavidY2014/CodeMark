@@ -12,4 +12,6 @@ https://mp.weixin.qq.com/s/H8Zb_EPsnAPF7JlBgXrKAA 异常抓取
 
 [Serializable]特性用以标记一个类可以被序列化，使用[NonSerialized]特性可以将类中的字段标识为序列化时忽略此字段。
 
-
+全局实现filter
+https://mp.weixin.qq.com/s/y0F6RZRMiC3u6oCd0fs4GA
+无需在每个post请求前面家上attributes
