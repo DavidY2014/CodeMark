@@ -11,6 +11,10 @@ D:\>dotnet ef dbcontext scaffold "server= ****;User ID=sa;Password=*****;Databas
 # redis centos 安装教程
 https://www.cnblogs.com/zuidongfeng/p/8032505.html
 
+# docker install 
+https://blog.csdn.net/w1316022737/article/details/83692701
+
+
 
 
 
