@@ -8,3 +8,9 @@ https://www.learnentityframeworkcore.com/walkthroughs/existing-database
 
 D:\>dotnet ef dbcontext scaffold "server= ****;User ID=sa;Password=*****;Database=TestDB;Min Pool Size=10;Max Pool Size=500;" Microsoft.EntityFrameworkCore.SqlServer -o TestDBModels
 
+# redis centos 安装教程
+https://www.cnblogs.com/zuidongfeng/p/8032505.html
+
+
+
+
