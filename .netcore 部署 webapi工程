@@ -14,6 +14,29 @@ https://www.cnblogs.com/zuidongfeng/p/8032505.html
 # docker install 
 https://blog.csdn.net/w1316022737/article/details/83692701
 
+#docker 发布流程
+
+首先创建Dockerfile
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
+COPY . /app/bin
+
+WORKDIR /app/bin
+
+ENV ASPNETCORE_URLS http://*:5005
+
+ENTRYPOINT ["dotnet", "Colipu.BasicData.API.WebAPI.dll"]
+
+
+拷贝到publish工程中，运行docker build -t XX   其中XX是image名称
+
+下面创建容器实例
+ docker run --name basicdataredis20191122 -d -p 9001:5005 bd26933b9f63   其中最后的是镜像ID  -d代表后台运行  5005是Dockerfile中的暴露端口，9001是暴露到外网的端口
+ 
+ 
+ 
+ 
+ 
 
 
 
