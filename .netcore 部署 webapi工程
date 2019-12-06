@@ -33,7 +33,7 @@ ENTRYPOINT ["dotnet", "Colipu.BasicData.API.WebAPI.dll"]
 下面创建容器实例
  docker run --name basicdataredis20191122 -d -p 9001:5005 bd26933b9f63   其中最后的是镜像ID  -d代表后台运行  5005是Dockerfile中的暴露端口，9001是暴露到外网的端口
  
- 
+ 另外acm配置，在vs的工程属性里面配置键值对，包括命名空间，公秘钥，datagroup，dataid，这样就会自动拉取
  
  
  
